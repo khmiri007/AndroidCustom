@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CardView">
+        <item name="BackgroundColor">@color/opt_round_card_view_light_background</item>
+        <item name="CornerRadius">@dimen/opt_round_card_view_default_radius</item>
+        <item name="Elevation">@dimen/opt_round_card_view_default_elevation</item>
+        <item name="MaxElevation">@dimen/opt_round_card_view_default_elevation</item>
+        <item name="UseCompatPadding">false</item>
+        <item name="PreventCornerOverlap">true</item>
+    </style>
+    <style name="CardView.Light">
+        <item name="BackgroundColor">@color/opt_round_card_view_light_background</item>
+    </style>
+    <style name="CardView.Dark">
+        <item name="BackgroundColor">@color/opt_round_card_view_dark_background</item>
+    </style>
+
+</resources>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleImage">
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+        <attr name="border_overlay" format="boolean" />
+        <attr name="fill_color" format="color" />
+    </declare-styleable>
+    <declare-styleable name="CardView">
+        <!-- Background color for CardView. -->
+        <attr name="BackgroundColor" format="color" />
+        <!-- Corner radius for CardView. -->
+        <attr name="LeftTopCorner" format="boolean" />
+        <!-- Corner radius for CardView. -->
+        <attr name="RightTopCorner" format="boolean" />
+        <!-- Corner radius for CardView. -->
+        <attr name="LeftBottomCorner" format="boolean" />
+        <!-- Corner radius for CardView. -->
+        <attr name="RightBottomCorner" format="boolean" />
+
+        <!-- Left Edges for CardView. -->
+        <attr name="LeftEdges" format="boolean" />
+        <!-- Top Edges for CardView. -->
+        <attr name="CardTopEdges" format="boolean" />
+        <!-- Right Edges for CardView. -->
+        <attr name="RightEdges" format="boolean" />
+        <!-- Bottom Edges for CardView. -->
+        <attr name="BottomEdges" format="boolean" />
+
+        <!-- Corner radius for CardView. -->
+        <attr name="CornerRadius" format="dimension" />
+        <!-- Elevation for CardView. -->
+        <attr name="Elevation" format="dimension" />
+        <!-- Maximum Elevation for CardView. -->
+        <attr name="MaxElevation" format="dimension" />
+        <!-- Add padding in API v21+ as well to have the same measurements with previous versions. -->
+        <attr name="UseCompatPadding" format="boolean" />
+        <!-- Add padding to CardView on v20 and before to prevent intersections between the Card content and rounded corners. -->
+        <attr name="PreventCornerOverlap" format="boolean" />
+        <!-- Inner padding between the edges of the Card and children of the CardView. -->
+        <attr name="ContentPadding" format="dimension" />
+        <!-- Inner padding between the left edge of the Card and children of the CardView. -->
+        <attr name="ContentPaddingLeft" format="dimension" />
+        <!-- Inner padding between the right edge of the Card and children of the CardView. -->
+        <attr name="ContentPaddingRight" format="dimension" />
+        <!-- Inner padding between the top edge of the Card and children of the CardView. -->
+        <attr name="ContentPaddingTop" format="dimension" />
+        <!-- Inner padding between the bottom edge of the Card and children of the CardView. -->
+        <attr name="ContentPaddingBottom" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="ArcLayout">
+        <attr name="arc_height" format="dimension" />
+        <attr name="arc_position">
+            <enum name="bottom" value="0"/>
+            <enum name="top" value="1"/>
+            <enum name="left" value="2"/>
+            <enum name="right" value="3"/>
+        </attr>
+        <attr name="arc_cropDirection" format="enum">
+            <enum name="cropInside" value="0" />
+            <enum name="cropOutside" value="1"/>
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="DiagonalLayout">
+        <attr name="diagonal_angle" format="integer" />
+        <attr name="diagonal_handleMargins" format="boolean"/>
+        <attr name="diagonal_position" format="enum">
+            <enum name="left" value="1" />
+            <enum name="right" value="2" />
+            <enum name="bottom" value="4" />
+            <enum name="top" value="8"/>
+        </attr>
+        <attr name="diagonal_direction" format="enum">
+            <enum name="left" value="1" />
+            <enum name="right" value="2" />
+        </attr>
+    </declare-styleable>
+</resources>

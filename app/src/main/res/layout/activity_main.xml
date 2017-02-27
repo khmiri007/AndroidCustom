@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.ziedkhmiri.myapplication.MainActivity">
+
+    <com.ziedkhmiri.custom.cardview.CardView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        app:BackgroundColor="#705eedf2"
+        app:CornerRadius="8dp"
+        app:LeftBottomCorner="false"
+        app:RightBottomCorner="false"
+        app:BottomEdges="false"
+        />
+
+    <com.ziedkhmiri.custom.CircleImage
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/profile_image"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:src="@drawable/img"
+        app:border_width="2dp"
+        app:border_color="#FF000000"
+        android:layout_marginLeft="83dp"
+        android:layout_marginStart="83dp"
+        android:layout_marginBottom="99dp"
+        android:layout_alignParentBottom="true"
+        />
+</RelativeLayout>
